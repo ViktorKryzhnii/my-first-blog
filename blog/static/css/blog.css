@@ -87,7 +87,7 @@ h1 a {
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
 
-.post-form input,
+.post-form input:not([type="submit"]),
 .post-form textarea,
 .post-form select {
     width: 100%;
@@ -134,14 +134,15 @@ h1 a {
 }
 
 .btn-custom {
-    background-color: #ff9400;
+    background-color: #ffa726;
     color: white;
+    border: 1px solid #ccc;
     border-radius: 8px;
     padding: 10px 20px;
 }
 
 .btn-custom:hover {
-    background-color: #ffa726;
+    background-color: #ff9400;
 }
 
 .top-menu {
